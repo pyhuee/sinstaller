@@ -32,22 +32,23 @@ if [[ $EUID -ne 0 ]]; then # checks if ran as root
   mv msedge.deb $HOME #moves the files to the Home directory
   sleep 2 #waits 2 seconds
   echo "Step 4: Installing files" # says Step 4: Installing FIles
+  cd $HOME #moves current diectory to the user's home folder. 
   snap install spotify # installs Spotify
   snap install telegram-desktop # installs Telegram
   snap install code --classic # Installs VS Code
   apt install github-desktop -qq -y # Installs Github Desktop
   apt install lutris -qq -y # Installs Lutris
-  apt install ./discord.deb -qq -y # Installs Discord
-  apt install ./mullvad.deb -qq -y # Installs Mullvad
-  apt install ./steam.deb -qq -y # Installs Steam
-  apt install ./minecraft.deb -qq -y # Installs Minecraft
-  apt install ./msedge.deb -y -qq # Installs Microsoft Edge
+  apt install discord.deb -qq -y # Installs Discord
+  apt install mullvad.deb -qq -y # Installs Mullvad
+  apt install steam.deb -qq -y # Installs Steam
+  apt install minecraft.deb -qq -y # Installs Minecraft
+  apt install msedge.deb -y -qq # Installs Microsoft Edge
   sleep 10 #waits 10 seconds
   echo "Step 5: Removing and Rebooting"
-  rm ./discord.deb # deletes no longer needed  files 
-  rm ./mullvad.deb # deletes no longer needed  files 
-  rm ./steam.deb # deletes no longer needed  files 
-  rm ./minecraft.deb # deletes no longer needed  files 
-  rm ./msedge.deb # deletes no longer needed  files 
+  rm discord.deb # deletes no longer needed  files 
+  rm mullvad.deb # deletes no longer needed  files 
+  rm steam.deb # deletes no longer needed  files 
+  rm minecraft.deb # deletes no longer needed  files 
+  rm msedge.deb # deletes no longer needed  files 
   reboot
 fi
