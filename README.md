@@ -1,26 +1,20 @@
-#SInstaller
+# SInstaller
+Hello there, welcome to my software installer, this thing installs some software, such as
 
-I made this script to install some apps/software/utilites. A complete list is below that works. 
+1. Github Desktop
+2. Telgram Desktop
+3. Spotify
+4. Lutris
+5. VS Code
 
-Spotify
+# Some thing's that *don't work**, but are in development.
 
-Telegram
+1. Mullvad VPN
+2. Discord
+3. Steam
+4. Minecraft
+5. Microsoft Edge (Yes, I know not open source, it's just what I use.)
 
-VS Code
+# Well, why don't they work?
 
-Lutris
-
-Github Desktop for Linux (https://github.com/muroko/github-desktop-linux)
-
-More is in the works, it's just that I am new to bash scripting, and coding in general, so here is some of the apps I plan to have to get auto installed. 
-
-
-Mullvad VPN
-
-Github Desktop for Linux (https://github.com/muroko/github-desktop-linux)
-
-Microsoft Edge
-
-Minecraft Java edition launcher
-
-Steam
+Well, I'm a n00b, so basically, I just have Github Desktop, and Lutris, install from their added repos, and the rest of the working installers come from SnapCraft. I'm still trying to get those working. They successfully retreive the files, but don't install them due to apt not knowing where to find them. 
