@@ -1,7 +1,7 @@
 # SInstaller
 Hello there, welcome to my software installer, this thing installs some software, such as
 
-1. Github Desktop (from Shiftkey,https://github.com/shiftkey/desktop)
+1. Github Desktop (from Shiftkey, https://github.com/shiftkey/desktop )
 2. Telgram Desktop
 3. Spotify
 4. Lutris
