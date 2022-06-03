@@ -1,7 +1,7 @@
 # SInstaller
 Hello there, welcome to my software installer, this thing installs some software, such as
 
-1. Github Desktop
+1. Github Desktop (from Shiftkey,https://github.com/shiftkey/desktop)
 2. Telgram Desktop
 3. Spotify
 4. Lutris
@@ -17,4 +17,4 @@ Hello there, welcome to my software installer, this thing installs some software
 
 # Well, why don't they work?
 
-Well, I'm a n00b, so basically, I just have Github Desktop, and Lutris, install from their added repos, and the rest of the working installers come from SnapCraft. I'm still trying to get those working. They successfully retreive the files, but don't install them due to apt not knowing where to find them. 
+Well, I'm a n00b, so basically, I just have Github Desktop, and Lutris, install from their added repos, and the rest of the working installers come from SnapCraft. I'm still trying to get those working. They successfully retreive the files, but don't install them due to apt not knowing where to find them.
