@@ -7,7 +7,7 @@ Hello there, welcome to my software installer, this thing installs some software
 4. Lutris
 5. VS Code
 
-# Some thing's that *don't work**, but are in development.
+# Some thing's that *don't work*, but are in development.
 
 1. Mullvad VPN
 2. Discord
