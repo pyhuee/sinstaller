@@ -1,6 +1,7 @@
 #!/bin/bash
 # Welcome to the installer! Basically, I don't care what you do to it, go ahead, release it, sell my crappy coding, I don't really care
-# 
+# Some things ARE NON FUNCTIONAL! PLEASE CHECK THE README.MD!
+
 if [[ $EUID -ne 0 ]]; then # checks if ran as root
    echo "This script must be run as root" #if the script isn't ran as root (sudo), it will say "This script must be ran as root"
    exit # closes out the script and allows you to type again in the terminal
